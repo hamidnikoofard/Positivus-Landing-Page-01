@@ -1,0 +1,41 @@
+@media only screen and (max-width: 992px){
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .d-non{
+        display: none;
+    }
+
+    .d-block{
+        display: block;
+    }
+
+    .d-flex{
+        display: flex;
+    }
+
+    .d-non{
+        display: none;
+    }
+
+    .flex-wrap{
+        flex-wrap: wrap;
+    }
+
+    .desk button{
+        margin-top: 40px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title-service{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title-happen button{
+        width: 100%;
+    }
+}
