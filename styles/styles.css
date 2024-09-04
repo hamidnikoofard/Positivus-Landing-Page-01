@@ -11,3 +11,149 @@
     max-width: 1200px;
     margin: 0 auto;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.menu-request{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.desktop-menu{
+    display: flex;
+    gap: 40px;
+}
+
+.desktop-menu li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.desktop-menu li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.subheader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.subheader-mobile{
+    display: none;
+    margin: 0 auto;
+    margin-top: 70px
+}
+
+.title h1{
+    font-size: 60px;
+}
+
+.title p{
+    font-size: 20px;
+    max-width: 498px;
+    margin-top: 35px;
+}
+
+.title button{
+    margin-top: 35px;
+}
+
+.company{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 70px;
+    gap: 95.5px;
+}
+
+.company-img-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95.5px;
+}
+
+.company-img-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 95.5px;
+    margin-top: 26px;
+}
+
+.title-service{
+    margin-top: 140px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.title-service h2{
+    font-size: 30px;
+    background-color: #B9FF66;
+    padding: 3px;
+}
+
+.title-service p{
+    max-width: 580px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.card-services{
+    display: flex;
+    gap: 40px;
+}
+
+.cart{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000000;
+    border-radius: 50px;
+    overflow: hidden;
+    padding: 50px;
+    width: 600px;
+    box-shadow: rgb(0, 0, 0) 0px 6px 2px 0px;
+}
+
+.more-btn{
+    margin-top: 93px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.lets-make{
+    display: flex;
+    align-items: center;
+    background-color: #F3F3F3;
+    border-radius: 50px;
+    margin-top: 123.5px;
+    padding: 60px;
+    max-height: 374px;
+    justify-content: space-between;
+}
+
+.title-happen p{
+    font-size: 20px;
+    max-width: 500px;
+    margin-top: 26px;
+}
+
+.title-happen button{
+    margin-top: 26px;
+}

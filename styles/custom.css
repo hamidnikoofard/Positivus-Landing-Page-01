@@ -1,0 +1,44 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.transparent-btn{
+    background-color: transparent;
+    border: 1px solid #000000;
+    border-radius: 14px;
+    padding: 20px 35px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.black-btn{
+    cursor: pointer;
+    border-radius: 14px;
+    padding: 20px 35px;
+    font-size: 20px;
+    background-color: #000000;
+    color: #ffff;
+}
+
+.green-background{
+    background-color: #B9FF66;
+}
+
+.gray-background{
+    background-color: #F3F3F3;
+}
+
+.black-background{
+    background-color: #000000;
+}
+
+.color-white{
+    color: #fff;
+}
+
+.img-width{
+    width: 100%;
+    height: auto;
+}
+
