@@ -1,0 +1,277 @@
+/*.........................General style.............................*/
+.titles{
+    color: rgba(0, 0, 0, 1);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51.04px;
+    background-color: rgba(185, 255, 102, 1);
+    padding: 0px, 7px, 0px, 7px;
+    border-radius: 7px;
+}
+.titles-par{
+    color: rgba(0, 0, 0, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.97px;
+    margin-left: 40px;
+}
+.case-hr{
+    max-width: 186px;
+    border: solid 1px rgba(255, 255, 255, 1);
+}
+/* ...................................................................... */
+.Case-Studies-title{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.Case-Studies{
+    display: flex;
+    flex-direction: row;
+    padding: 70px 60px 70px 60px;
+    background-color: rgba(25, 26, 35, 1);
+    border-radius: 45px;
+    gap: 64px;
+    margin-top: 80px;
+}
+.case-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22.97px;
+    margin-bottom: 20px;
+}
+.case-link{
+    cursor: pointer;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(185, 255, 102, 1);
+}
+/* .................................................................................. */
+.FAQ-content-title{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.FAQ-content{
+    display: flex;
+    flex-direction: row;
+    padding: 41px 60px 41px 60px;
+    background-color: rgba(243, 243, 243, 1);
+    box-shadow: rgba(25, 26, 35, 1)0px 5px;
+    border: solid 1px rgba(25, 26, 35, 1);
+    border-radius: 45px;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+.FAQ{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    max-width: 712px;
+    text-align: center;
+}
+.FAQ h1{
+    font-weight: 500;
+    font-size: 60px;
+    color: rgba(0, 0, 0, 1);
+    line-height: 76.56px;
+}
+.FAQ span{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38.28px;
+    color:rgba(0, 0, 0, 1);
+    text-align: center;
+}
+.FAQ-content button{
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    min-width:30px;
+    min-height: 30px;
+    background-color: rgba(243, 243, 243, 1);
+    border:solid 1px rgba(25, 26, 35, 1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+/* .................................................................................... */
+.team-content-title{
+    margin-top: 140px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.Team-members{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1441px;
+    max-height: 725px;
+}
+.Team-member{
+    padding: 40px 35px 40px 35px;
+    border: solid 1px rgba(25, 26, 35, 1);
+    box-shadow: rgba(25, 26, 35, 1)0px 5px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 45px;
+    max-width: 387px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    min-height: 330px;
+    max-height: 330px;
+}
+.Team-member-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.Team-member-title span{
+    flex-direction: column;
+    display: flex;
+    text-align: start;
+    justify-content: end;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22.97px;
+    color: rgba(0, 0, 0, 1);
+}
+.Team-member-title span h4{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25.52px;
+    color: rgba(0, 0, 0, 1);
+}
+.team-p{
+    max-width: 317px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 1);
+}
+.team-hr{
+    border: solid 1px rgba(0, 0, 0, 0.336);
+    max-width: 317px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+.Team-member-title button{
+    all: unset;
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(185, 255, 102, 1);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.Team-member-button button{
+    background-color: rgba(25, 26, 35, 1);
+    border-radius: 14px;
+    padding: 20px 35px 20px 35px;
+    min-height: 68px;
+    min-width: 269px;
+    font-size: 400;
+    font-weight:20px ;
+    line-height: 28px;
+    text-align: center;
+    color:rgba(255, 255, 255, 1);
+    box-shadow: none;
+    border: none;
+}
+.col-xs-1{width: 8.33%;}
+.col-xs-2{width: 16.66%;}
+.col-xs-3{width: 25%;}
+.col-xs-4{width: 33.33%;}
+.col-xs-5{width: 41.66%;}
+.col-xs-6{width: 50%;}
+.col-xs-7{width: 58.33%;}
+.col-xs-8{width: 66.66%;}
+.col-xs-9{width: 75%;}
+.col-xs-10{width: 81.33%;}
+.col-xs-11{width: 91.66%;}
+.col-xs-12{width: 100%;}
+
+@media screen and (min-width : 576px){
+    .col-sm-1{width: 8.33%;}
+    .col-sm-2{width: 16.66%;}
+    .col-sm-3{width: 25%;}
+    .col-sm-4{width: 33.33%;}
+    .col-sm-5{width: 41.66%;}
+    .col-sm-6{width: 50%;}
+    .col-sm-7{width: 58.33%;}
+    .col-sm-8{width: 66.66%;}
+    .col-sm-9{width: 75%;}
+    .col-sm-10{width: 81.33%;}
+    .col-sm-11{width: 91.66%;}
+    .col-sm-12{width: 100%;}
+}
+@media screen and (min-width : 768px){
+    .col-md-1{width: 8.33%;}
+    .col-md-2{width: 16.66%;}
+    .col-md-3{width: 25%;}
+    .col-md-4{width: 33.33%;}
+    .col-md-5{width: 41.66%;}
+    .col-md-6{width: 50%;}
+    .col-md-7{width: 58.33%;}
+    .col-md-8{width: 66.66%;}
+    .col-md-9{width: 75%;}
+    .col-md-10{width: 81.33%;}
+    .col-md-11{width: 91.66%;}
+    .col-md-12{width: 100%;}
+}
+@media screen and (min-width : 992px){
+    .col-lg-1{width: 8.33%;}
+    .col-lg-2{width: 16.66%;}
+    .col-lg-3{width: 25%;}
+    .col-lg-4{width: 33.33%;}
+    .col-lg-5{width: 41.66%;}
+    .col-lg-6{width: 50%;}
+    .col-lg-7{width: 58.33%;}
+    .col-lg-8{width: 66.66%;}
+    .col-lg-9{width: 75%;}
+    .col-lg-10{width: 81.33%;}
+    .col-lg-11{width: 91.66%;}
+    .col-lg-12{width: 100%;}
+}
+@media screen and (min-width : 1200px){
+    .col-xl-1{width: 8.33%;}
+    .col-xl-2{width: 16.66%;}
+    .col-xl-3{width: 25%;}
+    .col-xl-4{width: 33.33%;}
+    .col-xl-5{width: 41.66%;}
+    .col-xl-6{width: 50%;}
+    .col-xl-7{width: 58.33%;}
+    .col-xl-8{width: 66.66%;}
+    .col-xl-9{width: 75%;}
+    .col-xl-10{width: 81.33%;}
+    .col-xl-11{width: 91.66%;}
+    .col-xl-12{width: 100%;}
+}
+@media screen and (min-width : 1400px){
+    .col-xxl-1{width: 8.33%;}
+    .col-xxl-2{width: 16.66%;}
+    .col-xxl-3{width: 25%;}
+    .col-xxl-4{width: 33.33%;}
+    .col-xxl-5{width: 41.66%;}
+    .col-xxl-6{width: 50%;}
+    .col-xxl-7{width: 58.33%;}
+    .col-xxl-8{width: 66.66%;}
+    .col-xxl-9{width: 75%;}
+    .col-xxl-10{width: 81.33%;}
+    .col-xxl-11{width: 91.66%;}
+    .col-xxl-12{width: 100%;}
+}
