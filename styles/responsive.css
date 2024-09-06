@@ -24,6 +24,10 @@
         flex-wrap: wrap;
     }
 
+    .company{
+        max-width: 320px;
+    }
+
     .desk button{
         margin-top: 40px;
         text-align: center;
@@ -39,4 +43,46 @@
         width: 100%;
     }
 
+    .comment{
+        max-width: 330px;
+        margin: 0 auto;
+    }
+
+
+    .form-contact-us{
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    .raidio-input{
+        margin-top: 40px;
+        justify-content: center;
+    }
+
+
+    .owl-dots{
+        display: none;
+    }
+
+    .form-input{
+        max-width: 340px;
+        padding: 10px;
+    }
+
+    .flex-column{
+        flex-direction: column;
+    }
+
+    .tex-center{
+        text-align: center;
+    }
+
+    .flex-column{
+        flex-direction: column;
+    }
+
+    .title-footer{
+        justify-content: center;
+    }
 }
