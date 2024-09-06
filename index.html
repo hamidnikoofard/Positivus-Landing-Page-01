@@ -198,40 +198,33 @@
                     <p class="titles-par" style="max-width: 580px;">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
                 </div>
             </section>
-            <section class="Case-Studies-slider">
-                <div class="owl-carousel">
-                    <div>
-                         <div class="Case-Studies-slider-case">
-                            <p class="case-text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                            <a class="case-link" href="">Learn more &#129141</a>
-                         </div>
-                    </div>
-                    <div>
+            <!-- <section class="Case-Studies-slider owl-carousel owl-theme">
                         <div class="Case-Studies-slider-case">
-                            <p class="case-text">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
-                            <a class="case-link" href="">Learn more &#129141</a>
+                        <p class="case-text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                        <a class="case-link" href="">Learn more &#129141</a>
                         </div>
-                   </div>
-                   <div>
+
                     <div class="Case-Studies-slider-case">
-                        <p class="case-text">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                        <p class="case-text">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
                         <a class="case-link" href="">Learn more &#129141</a>
                     </div>
-               </div>
-                </div>    
-            </section>
-            <section class="Case-Studies">
-                <div>
+
+
+                <div class="Case-Studies-slider-case">
+                    <p class="case-text">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
+                    <a class="case-link" href="">Learn more &#129141</a>
+                </div>  
+            </section> -->
+            <section class="Case-Studies owl-carousel owl-theme">
+                <div class="box-case-studies">
                     <p class="case-text">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
                     <a class="case-link" href="">Learn more &#129141</a>
                 </div>
-                <div class="case-hr"></div>
-                <div>
+                <div class="box-case-studies">
                     <p class="case-text">For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
                     <a class="case-link" href="">Learn more &#129141</a>
-                </div>
-                <div class="case-hr"></div>
-                <div>
+                </div class="box-case-studies">
+                <div class="box-case-studies">
                     <p class="case-text">For a national retail chain, we created a social media marketing campaign that increased followers by 25% and generated a 20% increase in online sales.</p>
                     <a class="case-link" href="">Learn more &#129141</a>
                 </div>
@@ -438,15 +431,26 @@
 
 
 
-    <script src="scripts/app.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="styles/mohamad/js/owl.carousel.min.js"></script>
-    <script>
-            $(document).ready(function(){
-  $(".owl-carousel").owlCarousel({
-    items:1
-  });
-});
-    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="scripts/owl.carousel.min.js"></script>
+        <script src="scripts/app.js"></script>
+        <script>
+                $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:3
+            }
+        }
+    })
+        </script>
 </body>
 </html>
